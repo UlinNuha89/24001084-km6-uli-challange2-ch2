@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">challange2</string>
+    <string name="text_name">Hai, Ulin Nuha !</string>
+    <string name="text_greetings">Hallo guys, what do you wanna eat today?</string>
+    <string name="text_title_banner">belilah buah hasil tanam mahasiswa</string>
+    <string name="text_desc_banner">klick banner untuk membeli buah</string>
+
 </resources>
