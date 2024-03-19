@@ -4,18 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="8dp"
     android:weightSum="3">
 
     <TextView
         android:id="@+id/tv_title_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="List Menu"
+        android:text="@string/text_list_menu"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/iv_menu"
+        app:layout_constraintBottom_toBottomOf="@id/iv_menu"/>
 
     <ImageView
         android:id="@+id/iv_menu"

@@ -15,6 +15,7 @@
         android:orientation="vertical">
 
         <ImageView
+            android:scaleType="centerCrop"
             android:id="@+id/iv_category_image"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -29,7 +30,7 @@
             android:maxLines="1"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="18sp"
             tools:text="food" />
 
     </LinearLayout>

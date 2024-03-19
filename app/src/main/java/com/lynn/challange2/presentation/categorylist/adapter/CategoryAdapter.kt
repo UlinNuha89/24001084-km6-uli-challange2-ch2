@@ -1,15 +1,14 @@
-package com.lynn.challange2.adapter
+package com.lynn.challange2.presentation.categorylist.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.lynn.challange2.databinding.ItemCategoryBinding
-import com.lynn.challange2.models.Category
+import com.lynn.challange2.data.model.Category
 
 class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
     private val data = mutableListOf<Category>()
-
     fun submitData(items: List<Category>) {
         data.addAll(items)
     }
@@ -38,5 +37,4 @@ class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>
             binding.ivCategoryImage.setImageResource(item.image)
         }
     }
-
 }
